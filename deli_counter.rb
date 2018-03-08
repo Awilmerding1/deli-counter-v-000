@@ -14,16 +14,13 @@ end
 end
 
 def take_a_number(katz_deli, name)
-  line_end = katz_deli
-  counter = 1
+  line_end = []
   if katz_deli == []
     katz_deli << "#{name}"
     puts "Welcome, #{katz_deli[0]}. You are number 1 in line."
   else
-    katz_deli.each_with_index do |person, index|
-    line_end << "#{person}"
-  puts "Welcome, #{line_end[-1]}. You are number #{counter} in line."
-  counter += 1 
+    katz_deli << "#{person}"
+  puts "Welcome, #{katz_deli[-1]}. You are number 2 in line."
 end
 end
 end
