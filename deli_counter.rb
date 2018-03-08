@@ -14,7 +14,6 @@ end
 end
 
 def take_a_number(katz_deli, name)
-  line_end = []
   if katz_deli == []
     katz_deli << "#{name}"
     puts "Welcome, #{katz_deli[0]}. You are number 1 in line."
