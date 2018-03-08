@@ -8,10 +8,10 @@ def line(katz_deli)
   katz_deli.each_with_index do |person, index|
     place = index + 1
     line_array << " #{place}. #{person}"
- 
+ end
     puts "The line is currently:#{line_array.join( )}"
 end
- end
+ 
 end
 
 def take_a_number(katz_deli, name)
